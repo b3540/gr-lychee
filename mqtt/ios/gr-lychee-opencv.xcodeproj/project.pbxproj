@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FCB93070AA2B17845043041 /* Pods_gr_lychee_opencv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD49CA52943252BF503368EA /* Pods_gr_lychee_opencv.framework */; };
+		3663C59BCCCDFD39F78FBABA /* Pods_gr_lychee_opencvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC3C3FF639E4769AC5A0A0 /* Pods_gr_lychee_opencvUITests.framework */; };
+		80CB6110210B062600CB95C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB610F210B062600CB95C3 /* AppDelegate.swift */; };
+		80CB6112210B062600CB95C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB6111210B062600CB95C3 /* ViewController.swift */; };
+		80CB6115210B062600CB95C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CB6113210B062600CB95C3 /* Main.storyboard */; };
+		80CB6117210B062C00CB95C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CB6116210B062C00CB95C3 /* Assets.xcassets */; };
+		80CB611A210B062C00CB95C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CB6118210B062C00CB95C3 /* LaunchScreen.storyboard */; };
+		80CB6125210B062D00CB95C3 /* gr_lychee_opencvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB6124210B062D00CB95C3 /* gr_lychee_opencvTests.swift */; };
+		80CB6130210B062D00CB95C3 /* gr_lychee_opencvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB612F210B062D00CB95C3 /* gr_lychee_opencvUITests.swift */; };
+		80D182CA210EB70B00666A70 /* Moscapsule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D182C9210EB70B00666A70 /* Moscapsule.framework */; };
+		D73857FFF9F36F08484734A7 /* Pods_gr_lychee_opencvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B481C5AC007B0C1A9F2B4A /* Pods_gr_lychee_opencvTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CB6121210B062D00CB95C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CB6104210B062600CB95C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CB610B210B062600CB95C3;
+			remoteInfo = "gr-lychee-opencv";
+		};
+		80CB612C210B062D00CB95C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CB6104210B062600CB95C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CB610B210B062600CB95C3;
+			remoteInfo = "gr-lychee-opencv";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE790C90ED2EB0D4F7A8F47 /* Pods-gr-lychee-opencvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencvTests/Pods-gr-lychee-opencvTests.release.xcconfig"; sourceTree = "<group>"; };
+		64CCAE03B407B41F72CD22CD /* Pods-gr-lychee-opencvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencvUITests/Pods-gr-lychee-opencvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65B481C5AC007B0C1A9F2B4A /* Pods_gr_lychee_opencvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gr_lychee_opencvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DC3C3FF639E4769AC5A0A0 /* Pods_gr_lychee_opencvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gr_lychee_opencvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B77602C52E11D6387230A43 /* Pods-gr-lychee-opencv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencv/Pods-gr-lychee-opencv.debug.xcconfig"; sourceTree = "<group>"; };
+		80CB610C210B062600CB95C3 /* gr-lychee-opencv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gr-lychee-opencv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CB610F210B062600CB95C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CB6111210B062600CB95C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CB6114210B062600CB95C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CB6116210B062C00CB95C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CB6119210B062C00CB95C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CB611B210B062C00CB95C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CB6120210B062D00CB95C3 /* gr-lychee-opencvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gr-lychee-opencvTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CB6124210B062D00CB95C3 /* gr_lychee_opencvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gr_lychee_opencvTests.swift; sourceTree = "<group>"; };
+		80CB6126210B062D00CB95C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CB612B210B062D00CB95C3 /* gr-lychee-opencvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gr-lychee-opencvUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CB612F210B062D00CB95C3 /* gr_lychee_opencvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gr_lychee_opencvUITests.swift; sourceTree = "<group>"; };
+		80CB6131210B062D00CB95C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D182C9210EB70B00666A70 /* Moscapsule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moscapsule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842886BF8FA1393B5376DD88 /* Pods-gr-lychee-opencvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencvTests/Pods-gr-lychee-opencvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A2E9CCD4CD821A13A4E280 /* Pods-gr-lychee-opencvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencvUITests/Pods-gr-lychee-opencvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF06269A5DC7D939FD5011A8 /* Pods-gr-lychee-opencv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gr-lychee-opencv.release.xcconfig"; path = "Pods/Target Support Files/Pods-gr-lychee-opencv/Pods-gr-lychee-opencv.release.xcconfig"; sourceTree = "<group>"; };
+		FD49CA52943252BF503368EA /* Pods_gr_lychee_opencv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gr_lychee_opencv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CB6109210B062600CB95C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D182CA210EB70B00666A70 /* Moscapsule.framework in Frameworks */,
+				2FCB93070AA2B17845043041 /* Pods_gr_lychee_opencv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB611D210B062D00CB95C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73857FFF9F36F08484734A7 /* Pods_gr_lychee_opencvTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB6128210B062D00CB95C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3663C59BCCCDFD39F78FBABA /* Pods_gr_lychee_opencvUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CB6103210B062600CB95C3 = {
+			isa = PBXGroup;
+			children = (
+				80CB610E210B062600CB95C3 /* gr-lychee-opencv */,
+				80CB6123210B062D00CB95C3 /* gr-lychee-opencvTests */,
+				80CB612E210B062D00CB95C3 /* gr-lychee-opencvUITests */,
+				80CB610D210B062600CB95C3 /* Products */,
+				83460C8BEA1D348BFED753B6 /* Pods */,
+				F69B95DFA17F0D7691E9336D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80CB610D210B062600CB95C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CB610C210B062600CB95C3 /* gr-lychee-opencv.app */,
+				80CB6120210B062D00CB95C3 /* gr-lychee-opencvTests.xctest */,
+				80CB612B210B062D00CB95C3 /* gr-lychee-opencvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CB610E210B062600CB95C3 /* gr-lychee-opencv */ = {
+			isa = PBXGroup;
+			children = (
+				80CB610F210B062600CB95C3 /* AppDelegate.swift */,
+				80CB6111210B062600CB95C3 /* ViewController.swift */,
+				80CB6113210B062600CB95C3 /* Main.storyboard */,
+				80CB6116210B062C00CB95C3 /* Assets.xcassets */,
+				80CB6118210B062C00CB95C3 /* LaunchScreen.storyboard */,
+				80CB611B210B062C00CB95C3 /* Info.plist */,
+			);
+			path = "gr-lychee-opencv";
+			sourceTree = "<group>";
+		};
+		80CB6123210B062D00CB95C3 /* gr-lychee-opencvTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CB6124210B062D00CB95C3 /* gr_lychee_opencvTests.swift */,
+				80CB6126210B062D00CB95C3 /* Info.plist */,
+			);
+			path = "gr-lychee-opencvTests";
+			sourceTree = "<group>";
+		};
+		80CB612E210B062D00CB95C3 /* gr-lychee-opencvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80CB612F210B062D00CB95C3 /* gr_lychee_opencvUITests.swift */,
+				80CB6131210B062D00CB95C3 /* Info.plist */,
+			);
+			path = "gr-lychee-opencvUITests";
+			sourceTree = "<group>";
+		};
+		83460C8BEA1D348BFED753B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B77602C52E11D6387230A43 /* Pods-gr-lychee-opencv.debug.xcconfig */,
+				DF06269A5DC7D939FD5011A8 /* Pods-gr-lychee-opencv.release.xcconfig */,
+				842886BF8FA1393B5376DD88 /* Pods-gr-lychee-opencvTests.debug.xcconfig */,
+				2FE790C90ED2EB0D4F7A8F47 /* Pods-gr-lychee-opencvTests.release.xcconfig */,
+				64CCAE03B407B41F72CD22CD /* Pods-gr-lychee-opencvUITests.debug.xcconfig */,
+				C1A2E9CCD4CD821A13A4E280 /* Pods-gr-lychee-opencvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F69B95DFA17F0D7691E9336D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D182C9210EB70B00666A70 /* Moscapsule.framework */,
+				FD49CA52943252BF503368EA /* Pods_gr_lychee_opencv.framework */,
+				65B481C5AC007B0C1A9F2B4A /* Pods_gr_lychee_opencvTests.framework */,
+				66DC3C3FF639E4769AC5A0A0 /* Pods_gr_lychee_opencvUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CB610B210B062600CB95C3 /* gr-lychee-opencv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CB6134210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencv" */;
+			buildPhases = (
+				0CA28AE22C4C828E909495BE /* [CP] Check Pods Manifest.lock */,
+				80CB6108210B062600CB95C3 /* Sources */,
+				80CB6109210B062600CB95C3 /* Frameworks */,
+				80CB610A210B062600CB95C3 /* Resources */,
+				72C7AF52AA6919887EA97EC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gr-lychee-opencv";
+			productName = "gr-lychee-opencv";
+			productReference = 80CB610C210B062600CB95C3 /* gr-lychee-opencv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CB611F210B062D00CB95C3 /* gr-lychee-opencvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CB6137210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencvTests" */;
+			buildPhases = (
+				95DBD8057F843A23578AFD7B /* [CP] Check Pods Manifest.lock */,
+				80CB611C210B062D00CB95C3 /* Sources */,
+				80CB611D210B062D00CB95C3 /* Frameworks */,
+				80CB611E210B062D00CB95C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CB6122210B062D00CB95C3 /* PBXTargetDependency */,
+			);
+			name = "gr-lychee-opencvTests";
+			productName = "gr-lychee-opencvTests";
+			productReference = 80CB6120210B062D00CB95C3 /* gr-lychee-opencvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CB612A210B062D00CB95C3 /* gr-lychee-opencvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CB613A210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencvUITests" */;
+			buildPhases = (
+				2D2F3EB54FB874E9275C23A9 /* [CP] Check Pods Manifest.lock */,
+				80CB6127210B062D00CB95C3 /* Sources */,
+				80CB6128210B062D00CB95C3 /* Frameworks */,
+				80CB6129210B062D00CB95C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CB612D210B062D00CB95C3 /* PBXTargetDependency */,
+			);
+			name = "gr-lychee-opencvUITests";
+			productName = "gr-lychee-opencvUITests";
+			productReference = 80CB612B210B062D00CB95C3 /* gr-lychee-opencvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CB6104210B062600CB95C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = niisato;
+				TargetAttributes = {
+					80CB610B210B062600CB95C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					80CB611F210B062D00CB95C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 80CB610B210B062600CB95C3;
+					};
+					80CB612A210B062D00CB95C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 80CB610B210B062600CB95C3;
+					};
+				};
+			};
+			buildConfigurationList = 80CB6107210B062600CB95C3 /* Build configuration list for PBXProject "gr-lychee-opencv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CB6103210B062600CB95C3;
+			productRefGroup = 80CB610D210B062600CB95C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CB610B210B062600CB95C3 /* gr-lychee-opencv */,
+				80CB611F210B062D00CB95C3 /* gr-lychee-opencvTests */,
+				80CB612A210B062D00CB95C3 /* gr-lychee-opencvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CB610A210B062600CB95C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CB611A210B062C00CB95C3 /* LaunchScreen.storyboard in Resources */,
+				80CB6117210B062C00CB95C3 /* Assets.xcassets in Resources */,
+				80CB6115210B062600CB95C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB611E210B062D00CB95C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB6129210B062D00CB95C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA28AE22C4C828E909495BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gr-lychee-opencv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D2F3EB54FB874E9275C23A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gr-lychee-opencvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C7AF52AA6919887EA97EC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-gr-lychee-opencv/Pods-gr-lychee-opencv-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moscapsule.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gr-lychee-opencv/Pods-gr-lychee-opencv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DBD8057F843A23578AFD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gr-lychee-opencvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CB6108210B062600CB95C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CB6112210B062600CB95C3 /* ViewController.swift in Sources */,
+				80CB6110210B062600CB95C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB611C210B062D00CB95C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CB6125210B062D00CB95C3 /* gr_lychee_opencvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CB6127210B062D00CB95C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CB6130210B062D00CB95C3 /* gr_lychee_opencvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CB6122210B062D00CB95C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CB610B210B062600CB95C3 /* gr-lychee-opencv */;
+			targetProxy = 80CB6121210B062D00CB95C3 /* PBXContainerItemProxy */;
+		};
+		80CB612D210B062D00CB95C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CB610B210B062600CB95C3 /* gr-lychee-opencv */;
+			targetProxy = 80CB612C210B062D00CB95C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CB6113210B062600CB95C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CB6114210B062600CB95C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CB6118210B062C00CB95C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CB6119210B062C00CB95C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CB6132210B062D00CB95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CB6133210B062D00CB95C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CB6135210B062D00CB95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B77602C52E11D6387230A43 /* Pods-gr-lychee-opencv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "gr-lychee-opencv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CB6136210B062D00CB95C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF06269A5DC7D939FD5011A8 /* Pods-gr-lychee-opencv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "gr-lychee-opencv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80CB6138210B062D00CB95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842886BF8FA1393B5376DD88 /* Pods-gr-lychee-opencvTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gr-lychee-opencvTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gr-lychee-opencv.app/gr-lychee-opencv";
+			};
+			name = Debug;
+		};
+		80CB6139210B062D00CB95C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE790C90ED2EB0D4F7A8F47 /* Pods-gr-lychee-opencvTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gr-lychee-opencvTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gr-lychee-opencv.app/gr-lychee-opencv";
+			};
+			name = Release;
+		};
+		80CB613B210B062D00CB95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CCAE03B407B41F72CD22CD /* Pods-gr-lychee-opencvUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gr-lychee-opencvUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gr-lychee-opencv";
+			};
+			name = Debug;
+		};
+		80CB613C210B062D00CB95C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A2E9CCD4CD821A13A4E280 /* Pods-gr-lychee-opencvUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gr-lychee-opencvUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hirotakaster.gr-lychee-opencvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gr-lychee-opencv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CB6107210B062600CB95C3 /* Build configuration list for PBXProject "gr-lychee-opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CB6132210B062D00CB95C3 /* Debug */,
+				80CB6133210B062D00CB95C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CB6134210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CB6135210B062D00CB95C3 /* Debug */,
+				80CB6136210B062D00CB95C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CB6137210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CB6138210B062D00CB95C3 /* Debug */,
+				80CB6139210B062D00CB95C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CB613A210B062D00CB95C3 /* Build configuration list for PBXNativeTarget "gr-lychee-opencvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CB613B210B062D00CB95C3 /* Debug */,
+				80CB613C210B062D00CB95C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CB6104210B062600CB95C3 /* Project object */;
+}

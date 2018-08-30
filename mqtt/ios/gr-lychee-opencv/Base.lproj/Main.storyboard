@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gr_lychee_opencv" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCY-UE-9Vh">
+                                <rect key="frame" x="113" y="475" width="41" height="30"/>
+                                <state key="normal" title="canny"/>
+                                <connections>
+                                    <action selector="onclickcanny:" destination="BYZ-38-t0r" eventType="touchUpInside" id="whQ-nc-hIi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJB-3N-Ai1">
+                                <rect key="frame" x="217" y="475" width="55" height="30"/>
+                                <state key="normal" title="drawing"/>
+                                <connections>
+                                    <action selector="onclickdrawing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBR-VA-bc5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fBG-pS-xpY">
+                                <rect key="frame" x="0.0" y="182" width="375" height="239"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WJB-3N-Ai1" firstAttribute="top" secondItem="fBG-pS-xpY" secondAttribute="bottom" constant="78" id="B5G-3k-Me7"/>
+                            <constraint firstItem="SCY-UE-9Vh" firstAttribute="top" secondItem="fBG-pS-xpY" secondAttribute="bottom" constant="78" id="Dqq-02-ZEr"/>
+                            <constraint firstItem="SCY-UE-9Vh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="Lpn-xf-44S"/>
+                            <constraint firstItem="fBG-pS-xpY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rea-aU-dkt"/>
+                            <constraint firstItem="fBG-pS-xpY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hLI-od-2kX"/>
+                            <constraint firstItem="WJB-3N-Ai1" firstAttribute="leading" secondItem="SCY-UE-9Vh" secondAttribute="trailing" constant="63" id="mkR-Xw-wKE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="outputImage" destination="fBG-pS-xpY" id="i0J-1o-40w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
